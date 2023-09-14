@@ -1,0 +1,9 @@
+execute at @e[x=-86,dx=12,y=-64,dy=400,z=-10000000,dz=20000000] run execute unless block -80 ~ ~ #minecraft:notdeleted run setblock -80 ~ ~ minecraft:red_stained_glass
+execute at @e[x=-86,dx=12,y=-64,dy=400,z=-10000000,dz=20000000] run execute unless block -80 ~1 ~ #minecraft:notdeleted run setblock -80 ~1 ~ minecraft:red_stained_glass
+execute at @e[x=-86,dx=12,y=-64,dy=400,z=-10000000,dz=20000000] run execute unless block -80 ~2 ~ #minecraft:notdeleted run setblock -80 ~2 ~ minecraft:red_stained_glass
+execute at @e[x=-86,dx=12,y=-64,dy=400,z=-10000000,dz=20000000] run execute unless block -80 ~ ~1 #minecraft:notdeleted run setblock -80 ~ ~1 minecraft:red_stained_glass
+execute at @e[x=-86,dx=12,y=-64,dy=400,z=-10000000,dz=20000000] run execute unless block -80 ~1 ~1 #minecraft:notdeleted run setblock -80 ~1 ~1 minecraft:red_stained_glass
+execute at @e[x=-86,dx=12,y=-64,dy=400,z=-10000000,dz=20000000] run execute unless block -80 ~2 ~1 #minecraft:notdeleted run setblock -80 ~2 ~1 minecraft:red_stained_glass
+execute at @e[x=-86,dx=12,y=-64,dy=400,z=-10000000,dz=20000000] run execute unless block -80 ~ ~-1 #minecraft:notdeleted run setblock -80 ~ ~-1 minecraft:red_stained_glass
+execute at @e[x=-86,dx=12,y=-64,dy=400,z=-10000000,dz=20000000] run execute unless block -80 ~1 ~-1 #minecraft:notdeleted run setblock -80 ~1 ~-1 minecraft:red_stained_glass
+execute at @e[x=-86,dx=12,y=-64,dy=400,z=-10000000,dz=20000000] run execute unless block -80 ~2 ~-1 #minecraft:notdeleted run setblock -80 ~2 ~-1 minecraft:red_stained_glass
